@@ -59,7 +59,7 @@ header {
 .bts { 
   float: left;
   width: 14%;  
-
+width: 50%;
   text-align: center;
   padding-left:  6px ;
   background-color:#f7f7f7;
@@ -76,7 +76,7 @@ opacity: 0.4;
 
 .story {
 margin-top: 400px;
-height: 280px;
+
 width: 100%;
 color:#5f5d60;
 background-color:#f7f7f7;
@@ -134,3 +134,7 @@ footer {
     padding-bottom: 20px;
     background-color: rgba(34, 49, 52, 0.9);
   }
+
+  .clear {
+    clear:left;
+    }
